@@ -1,0 +1,115 @@
+@-webkit-keyframes shake-vertical {
+  10%, 90% {
+    transform: translate3d(0, -1px, 0); }
+  20%, 80% {
+    transform: translate3d(0, 2px, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0); }
+  40%, 60% {
+    transform: translate3d(0, 4px, 0); } }
+@-moz-keyframes shake-vertical {
+  10%, 90% {
+    transform: translate3d(0, -1px, 0); }
+  20%, 80% {
+    transform: translate3d(0, 2px, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0); }
+  40%, 60% {
+    transform: translate3d(0, 4px, 0); } }
+@-o-keyframes shake-vertical {
+  10%, 90% {
+    transform: translate3d(0, -1px, 0); }
+  20%, 80% {
+    transform: translate3d(0, 2px, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0); }
+  40%, 60% {
+    transform: translate3d(0, 4px, 0); } }
+@keyframes shake-vertical {
+  10%, 90% {
+    transform: translate3d(0, -1px, 0); }
+  20%, 80% {
+    transform: translate3d(0, 2px, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0); }
+  40%, 60% {
+    transform: translate3d(0, 4px, 0); } }
+@-webkit-keyframes shake-horizontal {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+@-moz-keyframes shake-horizontal {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+@-o-keyframes shake-horizontal {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+@keyframes shake-horizontal {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+.shake-vertical:hover {
+  animation: shake-vertical 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px; }
+
+.shake-horizontal:hover {
+  animation: shake-horizontal 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px; }
+
+.profile-block {
+  overflow: hidden; }
+  .profile-block i {
+    margin: 40px 0;
+    font-size: 7rem;
+    display: block;
+    color: #ff5252; }
+
+#profile-img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 50px auto; }
+
+.skill-cloud {
+  margin: auto;
+  left: 50%;
+  display: block; }
+
+.side-nav li .active {
+  color: white; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+/*# sourceMappingURL=app.css.map */

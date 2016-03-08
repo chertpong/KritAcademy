@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACV,SAAS,EAAE,qDAA8C;EACzD,SAAS,EAAE,oBAAoB;EAC/B,mBAAmB,EAAE,MAAM;EAC3B,WAAW,EAAE,MAAM;;AAGrB,gBAgBC;EAfC,QAAS;IACP,SAAS,EAAE,uBAAuB;EAGpC,QAAS;IACP,SAAS,EAAE,sBAAsB;EAGnC,aAAc;IACZ,SAAS,EAAE,uBAAuB;EAGpC,QAAS;IACP,SAAS,EAAE,sBAAsB",
+"sources": ["shake.scss"],
+"names": [],
+"file": "shake.css"
+}

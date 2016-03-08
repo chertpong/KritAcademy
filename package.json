@@ -1,0 +1,14 @@
+{
+  "name": "kritacademy",
+  "version": "1.0.0",
+  "description": "kritacademy.com resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kritcg@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "^0.97.5"
+  }
+}
